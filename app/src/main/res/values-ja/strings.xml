@@ -1,0 +1,5 @@
+<resources>
+    <string name="hello_greeting">こんにちは、世界！</string>
+    <string name="hello_subtitle">多言語ハロー ワールドへようこそ</string>
+    <string name="a11y_flag">国旗</string>
+</resources>

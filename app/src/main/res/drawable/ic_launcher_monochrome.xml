@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  API 33+ 主题化图标（Themed icon）使用的单色层。
+  系统只取 alpha 通道并自行着色，因此这里用 evenOdd 把三个圆点挖成镂空。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M39,34h30a9,9 0 0 1 9,9v14a9,9 0 0 1 -9,9h-19l-11,12v-12a9,9 0 0 1 -9,-9v-14a9,9 0 0 1 9,-9z M40.5,50a3.5,3.5 0 1 0 7,0a3.5,3.5 0 1 0 -7,0z M50.5,50a3.5,3.5 0 1 0 7,0a3.5,3.5 0 1 0 -7,0z M60.5,50a3.5,3.5 0 1 0 7,0a3.5,3.5 0 1 0 -7,0z" />
+</vector>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="hello_greeting">你好，世界！</string>
+    <string name="hello_subtitle">欢迎使用 Hello World</string>
+    <string name="a11y_flag">国旗</string>
+</resources>
