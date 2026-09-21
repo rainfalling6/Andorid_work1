@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export PATH=\"$PATH:/c/Users/forever alone/AppData/Local/Android/Sdk/platform-tools\")",
+      "Bash(adb shell:*)",
+      "Bash(./gradlew :app:assembleDebug --console=plain)"
+    ]
+  }
+}
