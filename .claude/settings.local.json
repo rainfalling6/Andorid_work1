@@ -3,7 +3,26 @@
     "allow": [
       "Bash(export PATH=\"$PATH:/c/Users/forever alone/AppData/Local/Android/Sdk/platform-tools\")",
       "Bash(adb shell:*)",
-      "Bash(./gradlew :app:assembleDebug --console=plain)"
+      "Bash(./gradlew :app:assembleDebug --console=plain)",
+      "Bash(mkdir -p drawable-nodpi drawable-zh-nodpi drawable-ja-nodpi values-zh values-ja)",
+      "Bash(curl -sS -L --max-time 60 -o drawable-nodpi/flag.png \"https://flagcdn.com/w640/us.png\")",
+      "Bash(curl -sS -L --max-time 60 -o drawable-zh-nodpi/flag.png \"https://flagcdn.com/w640/cn.png\")",
+      "Bash(curl -sS -L --max-time 60 -o drawable-ja-nodpi/flag.png \"https://flagcdn.com/w640/jp.png\")",
+      "Bash(python -m pip install --quiet --disable-pip-version-check Pillow)",
+      "Bash(python -c \"from PIL import Image, ImageDraw; print\\(''''Pillow OK''''\\)\")",
+      "Bash(ls mipmap-*/)",
+      "Bash(cd:*)",
+      "Bash(adb install:*)",
+      "Bash(tr '>' '>\\\\n')",
+      "Bash(export MSYS_NO_PATHCONV=1)",
+      "Bash(adb pull:*)",
+      "Bash(python -c \":*)",
+      "Bash(AAPT=\"$HOME/AppData/Local/Android/Sdk/build-tools/36.0.0/aapt2.exe\")",
+      "Bash(\"$AAPT\" dump:*)",
+      "Bash(cd /tmp)",
+      "Bash(sed -n '12509,12520p' res.txt)",
+      "Bash(sed -n '6781,6792p' res.txt)",
+      "Bash(sed -n '8411,8420p' res.txt)"
     ]
   }
 }

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">李逸凡2024110518</string>
+
+    <!-- 界面文案：默认目录即英文，同时作为其它语言缺失时的兜底 -->
+    <string name="hello_greeting">Hello World!</string>
+    <string name="hello_subtitle">Welcome Hello World</string>
+    <string name="a11y_flag">Flag</string>
+
+    <!-- 语言自身的名称，不随界面语言变化 -->
+    <string name="language_zh" translatable="false">中文</string>
+    <string name="language_en" translatable="false">English</string>
+    <string name="language_ja" translatable="false">日本語</string>
 </resources>
